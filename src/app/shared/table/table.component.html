@@ -1,0 +1,14 @@
+<div id="head" class="row">
+  <div *ngFor="let key of keysOfIUserData">
+    <div class="table-cell">{{ key | uppercase }}</div>
+  </div>
+</div>
+<div id="body">
+  <div class="row" *ngFor="let tableRowInfo of tableDataSource">
+    <div class="table-cell">{{ tableRowInfo.uuid }}</div>
+    <div class="table-cell">{{ tableRowInfo.username }}</div>
+    <div class="table-cell">{{ tableRowInfo.gender }}</div>
+    <div class="table-cell">{{ tableRowInfo.location }}</div>
+    <div class="table-cell">{{ tableRowInfo.hobbies }}</div>
+  </div>
+</div>

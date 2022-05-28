@@ -1,0 +1,11 @@
+/* make every section align in column for better view*/
+section{
+    /* occupy all screen space */
+    height: 100%;
+    width: 100%;
+    /* make section's children align in column */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}

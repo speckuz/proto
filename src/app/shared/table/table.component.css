@@ -1,0 +1,19 @@
+/* layout in every row */
+.row{
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+/* head */
+#head{
+    font-weight: bold;
+}
+
+/* body */
+#body{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+}

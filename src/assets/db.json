@@ -1,0 +1,20 @@
+[
+  {
+    "name": "speckuz",
+    "gender": "男",
+    "location": "合肥",
+    "hobbies": ["睡觉"]
+  },
+  {
+    "name": "赵函",
+    "gender": "男",
+    "location": "亳州",
+    "hobbies": ["吃饭"]
+  },
+  {
+    "name": "lisa",
+    "gender": "女",
+    "location": "蚌埠",
+    "hobbies": ["打豆豆"]
+  }
+]

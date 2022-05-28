@@ -1,0 +1,26 @@
+<!-- Section 1: query && table -->
+<section *ngIf="sectionHidden">
+  <!-- logo -->
+  <img id="logo" src="assets/logo.png" alt="logo not exists" />
+  <!-- query -->
+  <section id="query">
+    <input type="text" placeholder="need a username" [(ngModel)]="nameForSearch" />
+    <button>Submit</button>
+  </section>
+  <!-- table -->
+  <section id="table">
+    <label>Proto Users Table</label>
+    <app-table></app-table>
+  </section>
+  <!-- table operating buttons -->
+  <section id="buttons">
+    <button>add userInfos({{defaultAddManyUserInfoNumber}})</button>
+    <button>add userInfo</button>
+    <button>update userInfo</button>
+    <button>remove userInfo</button>
+  </section>
+</section>
+<!-- Section 2: dialog -->
+<section *ngIf="!sectionHidden">
+  <app-dialog></app-dialog>
+</section>

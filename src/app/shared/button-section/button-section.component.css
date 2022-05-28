@@ -1,0 +1,22 @@
+section{
+    display: flex;
+}
+/* buttons */
+section button{
+    color: white;
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
+    text-shadow: 2px 2px 1px black;
+    font-size: large;
+    border-radius: 5px;
+}
+section button:hover{
+    font-weight: bold;
+}
+
+section button:nth-child(1){
+    flex: 1;
+}
+section button:nth-child(2){
+    flex: 1;
+}

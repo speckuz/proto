@@ -1,0 +1,56 @@
+/* layout */
+/* make every section align in column for better view*/
+section{
+    /* occupy all screen space */
+    height: 100%;
+    width: 100%;
+    /* make section's children align in column */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border:5px solid red;
+    border-radius: 10px;
+}
+
+
+
+/* size */
+/* logo should not too large*/
+#logo{
+    max-width: 200px;
+}
+
+/* other attrs */
+
+/* all inputs in homepage */
+section input[type="text"]{
+    font-weight: bold;
+}
+/* table in homepage */
+app-table{
+    display: flex;
+    flex-direction: column;
+}
+/* all buttons in homepage */
+section button{
+    color: white;
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
+    text-shadow: 2px 2px 1px black;
+    font-size: large;
+    border-radius: 5px;
+}
+section button:hover{
+    font-weight: bold;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+/* dialog */
+app-dialog{
+    display: flex;
+    flex-direction: column;
+}

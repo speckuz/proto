@@ -1,0 +1,19 @@
+<form [formGroup]="dialogForm">
+  <input type="text" formControlName="username" />
+  <select formControlName="gender">
+    <option value="GENDERS[0]">{{GENDERS[0]}}</option>
+    <option
+      *ngFor="let GENDER of GENDERS.slice(1, GENDERS.length)"
+      value="GENDER"
+    >{{GENDER}}</option>
+  </select>
+  <select formControlName="location">
+    <option value="LOCATIONS[0]">{{LOCATIONS[0]}}</option>
+    <option
+      *ngFor="let LOCATION of LOCATIONS.slice(1, LOCATIONS.length)"
+      value="LOCATION"
+    >{{LOCATION}}</option>
+  </select>
+  <input type="text" formControlName="hobbies" />
+</form>
+<app-button-section></app-button-section>
