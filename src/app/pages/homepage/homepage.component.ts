@@ -8,7 +8,7 @@ import { Component, OnInit } from "@angular/core";
 export class HomepageComponent implements OnInit {
   constructor() {}
   // flags on boolean
-  sectionHidden: boolean = false; // determine whether one section HTMLElment is hidden
+  sectionHidden: boolean = true; // determine whether one section HTMLElment is hidden
 
   // relative properties
   nameForSearch: string = "Default UserName";
